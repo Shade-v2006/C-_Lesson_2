@@ -15,3 +15,7 @@ Console.WriteLine(arr[2]);
 Console.WriteLine(arr[3]);
 Console.WriteLine(arr[4]);
 // Console.WriteLine(arr[5]); // Ошибка - Unhandled exception. System.IndexOutOfRangeException: Index was outside the bounds of the array.
+
+int[] arr2 = new int[5] { 1, 2, 3, 4, 5 }; // сразу заполняем массив
+int[] arr3 = { 1, 2, 3, 4, 5 }; // можем не фиксироватьмассив так как известно число элементов
+
